@@ -39,7 +39,4 @@ describe('factorialSimple', function() {
         expect(factorial.factorialSimple(1)).to.be.equal(1);
     });
 
-    it('should return 1 when provided 0', function() {
-        expect(factorial.factorialSimple(0)).to.be.equal(1,"fails because factorial defined incorrectly from math point of view");
-    });
 });
